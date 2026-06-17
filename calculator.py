@@ -22,8 +22,7 @@ if operation in ['1', '2', '3', '4']:
         if num2 != 0:
             result = num1 / num2
             print(f"{num1} / {num2} = {result}")
-        else:
-            print("Error: Division by zero is not allowed.")
+        
 else:
     print("Invalid operation selected.")
     
